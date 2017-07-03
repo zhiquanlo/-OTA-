@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451B92DC1F063A62006F43F5 /* test.zip in Resources */ = {isa = PBXBuildFile; fileRef = 451B92DB1F063A62006F43F5 /* test.zip */; };
 		455D045C1EF9176600828067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D045B1EF9176600828067 /* main.m */; };
 		455D045F1EF9176600828067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D045E1EF9176600828067 /* AppDelegate.m */; };
 		455D04621EF9176600828067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D04611EF9176600828067 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		455D046A1EF9176700828067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D04681EF9176700828067 /* LaunchScreen.storyboard */; };
 		455D04751EF9176700828067 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D04741EF9176700828067 /* __Tests.m */; };
 		455D04801EF9176700828067 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D047F1EF9176700828067 /* __UITests.m */; };
+		45663A131EFA1F1A006CD137 /* ReadServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A121EFA1F1A006CD137 /* ReadServiceVC.m */; };
+		45663A161EFA6306006CD137 /* interaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A151EFA6306006CD137 /* interaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451B92DB1F063A62006F43F5 /* test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = test.zip; sourceTree = "<group>"; };
 		455D04571EF9176600828067 /* 蓝牙.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455D045B1EF9176600828067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		455D045D1EF9176600828067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		455D047B1EF9176700828067 /* 蓝牙UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455D047F1EF9176700828067 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		455D04811EF9176700828067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45663A111EFA1F1A006CD137 /* ReadServiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadServiceVC.h; sourceTree = "<group>"; };
+		45663A121EFA1F1A006CD137 /* ReadServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadServiceVC.m; sourceTree = "<group>"; };
+		45663A141EFA6306006CD137 /* interaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interaction.h; sourceTree = "<group>"; };
+		45663A151EFA6306006CD137 /* interaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = interaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +113,12 @@
 				455D045E1EF9176600828067 /* AppDelegate.m */,
 				455D04601EF9176600828067 /* ViewController.h */,
 				455D04611EF9176600828067 /* ViewController.m */,
+				45663A111EFA1F1A006CD137 /* ReadServiceVC.h */,
+				45663A121EFA1F1A006CD137 /* ReadServiceVC.m */,
+				45663A141EFA6306006CD137 /* interaction.h */,
+				45663A151EFA6306006CD137 /* interaction.m */,
 				455D04631EF9176700828067 /* Main.storyboard */,
+				451B92DB1F063A62006F43F5 /* test.zip */,
 				455D04661EF9176700828067 /* Assets.xcassets */,
 				455D04681EF9176700828067 /* LaunchScreen.storyboard */,
 				455D046B1EF9176700828067 /* Info.plist */,
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					455D04561EF9176600828067 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y3H7W8C749;
 						ProvisioningStyle = Automatic;
 					};
 					455D046F1EF9176700828067 = {
@@ -247,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				455D046A1EF9176700828067 /* LaunchScreen.storyboard in Resources */,
+				451B92DC1F063A62006F43F5 /* test.zip in Resources */,
 				455D04671EF9176700828067 /* Assets.xcassets in Resources */,
 				455D04651EF9176700828067 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45663A131EFA1F1A006CD137 /* ReadServiceVC.m in Sources */,
+				45663A161EFA6306006CD137 /* interaction.m in Sources */,
 				455D04621EF9176600828067 /* ViewController.m in Sources */,
 				455D045F1EF9176600828067 /* AppDelegate.m in Sources */,
 				455D045C1EF9176600828067 /* main.m in Sources */,
@@ -426,9 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3H7W8C749;
 				INFOPLIST_FILE = "蓝牙/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kailu.--";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,9 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3H7W8C749;
 				INFOPLIST_FILE = "蓝牙/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kailu.--";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,6 +528,7 @@
 				455D04861EF9176700828067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		455D04871EF9176700828067 /* Build configuration list for PBXNativeTarget "蓝牙Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +537,7 @@
 				455D04891EF9176700828067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		455D048A1EF9176700828067 /* Build configuration list for PBXNativeTarget "蓝牙UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +546,7 @@
 				455D048C1EF9176700828067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
